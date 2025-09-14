@@ -7,6 +7,8 @@ The code is written in C and can be compiled into a shared library for easy use 
 
 ## Build Instructions
 
+NOTE: You should have C and Python installed in your system. If you already have them installed check that it is the latest version.
+
 1. Create a working directory:
 
    ```bash
@@ -32,4 +34,11 @@ You should see something like:
 This means all the necessary building has been done.
 
 ## Use instructions
+
+Now open the file ai_harness.py , go to line no. 72 and enter your premises, and then in line 73 enter your goal in the indicated places and run the code using:
+
+```bash
+python3 ai_harness.py
+```
+
 
