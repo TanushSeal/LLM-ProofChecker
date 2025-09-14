@@ -5,7 +5,7 @@ import os
 
 
 def proof_generator(premises, goal):
-    client = genai.Client(api_key="AIzaSyCSghh-4D-sDkNjSzozyD9VoSHuLUb4KWk")
+    client = genai.Client(api_key="Enter your Gemeni API Key here")
     prompt = """You are a professional proof solver for propositional logic using only the Lukasiewicz-Church (P2) axiom system.
 Use Polish prefix notation with:
   c  = implication
